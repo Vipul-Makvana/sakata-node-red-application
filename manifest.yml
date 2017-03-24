@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: sakata-node-red-application
+  host: sakata-node-red-application
+  disk_quota: 1024M
+  services:
+  - dashDB for Analytics-jo
+  - sakata-node-red-application-cloudantNoSQLDB
